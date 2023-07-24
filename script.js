@@ -1,6 +1,6 @@
 let intertvalId;
-document.getElementById("h1").addEventListener('click',() => {
-   intervalId = setInterval(func,750)
+document.getElementById("h1").addEventListener('mouseover',() => {
+   intervalId = setInterval(func,500)
 });
 
  function func() {
